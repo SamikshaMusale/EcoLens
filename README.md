@@ -3,7 +3,6 @@
 EcoLens is an interactive web application designed to analyze and visualize the relationship between deforestation and climate change over time.  
 By combining historical forest cover loss and climate data, EcoLens empowers users to understand environmental trends, identify correlations, and take data-driven actions for a sustainable future.
 
----
 
 ## **Key Features**
 
