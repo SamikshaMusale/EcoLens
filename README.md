@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+# **🌍 EcoLens – Visualize Deforestation and Climate Correlation**
 
-## Project info
+EcoLens is an interactive web application designed to analyze and visualize the relationship between deforestation and climate change over time.  
+By combining historical forest cover loss and climate data, EcoLens empowers users to understand environmental trends, identify correlations, and take data-driven actions for a sustainable future.
 
-**URL**: https://lovable.dev/projects/ba2c0ebb-5b55-46cb-8423-0320a046a27c
+---
 
-## How can I edit this code?
+## **Key Features**
 
-There are several ways of editing your application.
+### **1. Location-Based Analysis**
+- **Smart Search:** Enter any location name to analyze its environmental trends.
+- **Year Range Selection:** Define a custom time period (e.g., 2015–2025) for analysis.
+- **Accurate Geocoding:** Automatically fetches precise coordinates using the OpenCage API.
+- **Autocomplete Suggestions:** Instantly displays relevant locations as you type.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ba2c0ebb-5b55-46cb-8423-0320a046a27c) and start prompting.
+### **2. Deforestation & Climate Insights**
+- **Deforestation Trends:** Fetches annual tree cover loss data from Global Forest Watch.
+- **Climate Data Correlation:** Uses Open-Meteo API to show temperature and rainfall patterns.
+- **Interactive Charts:** Compare deforestation and climate changes side-by-side using Chart.js.
+- **Visual Correlation:** Observe how deforestation relates to rising temperatures and rainfall variation.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+### **3. Interactive Map Integration**
+- **Leaflet.js Map:** Displays the analyzed region using OpenStreetMap tiles (no API key required).
+- **Accurate Positioning:** Centers on the exact analyzed location.
+- **Markers & Popups:** Shows key metrics like average temperature, total rainfall, and forest loss.
+- **Region Selection:** Select specific areas using rectangles or freehand drawing tools.
+- **Responsive Design:** Works seamlessly on all screen sizes and adjusts to light/dark mode.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### **4. Additional Functionalities**
+- 🌗 **Smooth Theme Toggle:** Switch between light and dark modes with soft transitions.  
+- 🧾 **PDF Export:** Download the entire analysis report with maps and charts.  
+- 🔗 **Share Feature:** Share analysis results or location insights via link or social platforms.  
+- 🗺️ **Location Comparison:** Compare two regions side-by-side for deeper insights.  
+- ℹ️ **About Page:** Learn about EcoLens’s vision and mission for environmental awareness.  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## **Benefits**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Helps visualize environmental changes over time.  
+- Encourages data-driven understanding of deforestation and climate impact.  
+- Offers easy-to-use geospatial analysis for researchers, students, and environmentalists.  
+- Promotes sustainability through awareness and education.  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## **How It Works**
 
-**Edit a file directly in GitHub**
+1. **Enter a Location:** Type a location name in the search bar and choose a time range.  
+2. **Run Analysis:** Click “Start Analysis” — the backend fetches and processes relevant data.  
+3. **View Insights:** Explore visual correlations between deforestation and climate trends.  
+4. **(Optional)** **Select or Compare Areas:** Use drawing tools or compare multiple locations.  
+5. **Export or Share:** Download results as a PDF or share them online.  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## **Target Users**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This platform is ideal for:  
+- Environmental researchers and students.  
+- Policy makers studying deforestation trends.  
+- NGOs and sustainability advocates.  
+- Anyone interested in climate and forest data visualization.  
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## **Get Started**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Gain insights into our planet’s changing ecosystems!  
+Start analyzing, visualizing, and understanding the world with EcoLens.  
 
-## How can I deploy this project?
+🌐 **Live Demo:** *(coming soon — hosted on Vercel or Lovable)*  
 
-Simply open [Lovable](https://lovable.dev/projects/ba2c0ebb-5b55-46cb-8423-0320a046a27c) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## **Tech Stack**
 
-Yes, you can!
+| Technology | Purpose |
+|-------------|----------|
+| **Python (Flask)** | Backend API for geocoding, data aggregation & analysis |
+| **OpenCage API** | Location geocoding |
+| **Global Forest Watch API** | Deforestation data |
+| **Open-Meteo API** | Climate data (temperature, precipitation) |
+| **JavaScript / Chart.js** | Interactive data visualization |
+| **Leaflet.js + OpenStreetMap** | Interactive map integration |
+| **Tailwind CSS** | Responsive, modern design |
+| **jsPDF** | PDF report export |
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## **Future Enhancements**
+- AI-powered prediction of climate and deforestation trends.  
+- Region-based alerts and email summaries.  
+- User accounts for saving analysis history.  
+- Integration of satellite imagery overlays for visual depth.  
+
+---
