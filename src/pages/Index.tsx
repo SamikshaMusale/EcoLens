@@ -12,10 +12,10 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { ShareButton } from "@/components/ShareButton";
 import { PDFExport } from "@/components/PDFExport";
 import { LocationMap } from "@/components/LocationMap";
-import { Loader2, Leaf, Trees, Calendar, ArrowDown, Info, GitCompare, Sparkles } from "lucide-react";
+import { Loader2, Leaf, Trees, Calendar, ArrowDown, ArrowLeft, Info, GitCompare, Sparkles } from "lucide-react";
 import forestHero from "@/assets/forest-hero.jpg";
-import logo from "@/assets/logo.svg";
 import homepageLogo from "@/assets/homepage-logo.png";
+import bg from "@/assets/bg.png";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 import { Card, CardContent } from "@/components/ui/card";
@@ -156,8 +156,8 @@ const Index = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-background">
-                <img src={logo} alt="EcoLens Logo" className="h-10 w-10" />
+              <div className="flex h-16 w-16 items-center justify-center rounded-lg">
+                <img src={bg} alt="EcoLens Logo" className="h-18 w-18" />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-foreground">EcoLens</h1>

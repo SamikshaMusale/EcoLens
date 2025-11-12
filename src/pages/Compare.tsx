@@ -11,6 +11,7 @@ import { Footer } from "@/components/Footer";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { Loader2, Leaf, ArrowLeft, Plus, X, Download, Share2, Check } from "lucide-react";
 import logo from "@/assets/logo.svg";
+import bg from "@/assets/bg.png";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -246,8 +247,8 @@ const Compare = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-background">
-                <img src={logo} alt="EcoLens Logo" className="h-10 w-10" />
+              <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-background">
+                <img src={bg} alt="EcoLens Logo" className="h-18 w-18" />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-foreground">EcoLens</h1>
