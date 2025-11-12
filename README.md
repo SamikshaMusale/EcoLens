@@ -12,7 +12,6 @@ By combining historical forest cover loss and climate data, EcoLens empowers use
 - **Accurate Geocoding:** Automatically fetches precise coordinates using the OpenCage API.
 - **Autocomplete Suggestions:** Instantly displays relevant locations as you type.
 
----
 
 ### **2. Deforestation & Climate Insights**
 - **Deforestation Trends:** Fetches annual tree cover loss data from Global Forest Watch.
@@ -20,7 +19,6 @@ By combining historical forest cover loss and climate data, EcoLens empowers use
 - **Interactive Charts:** Compare deforestation and climate changes side-by-side using Chart.js.
 - **Visual Correlation:** Observe how deforestation relates to rising temperatures and rainfall variation.
 
----
 
 ### **3. Interactive Map Integration**
 - **Leaflet.js Map:** Displays the analyzed region using OpenStreetMap tiles (no API key required).
@@ -29,7 +27,6 @@ By combining historical forest cover loss and climate data, EcoLens empowers use
 - **Region Selection:** Select specific areas using rectangles or freehand drawing tools.
 - **Responsive Design:** Works seamlessly on all screen sizes and adjusts to light/dark mode.
 
----
 
 ### **4. Additional Functionalities**
 - 🌗 **Smooth Theme Toggle:** Switch between light and dark modes with soft transitions.  
@@ -38,7 +35,6 @@ By combining historical forest cover loss and climate data, EcoLens empowers use
 - 🗺️ **Location Comparison:** Compare two regions side-by-side for deeper insights.  
 - ℹ️ **About Page:** Learn about EcoLens’s vision and mission for environmental awareness.  
 
----
 
 ## **Benefits**
 
@@ -47,7 +43,6 @@ By combining historical forest cover loss and climate data, EcoLens empowers use
 - Offers easy-to-use geospatial analysis for researchers, students, and environmentalists.  
 - Promotes sustainability through awareness and education.  
 
----
 
 ## **How It Works**
 
@@ -57,7 +52,6 @@ By combining historical forest cover loss and climate data, EcoLens empowers use
 4. **(Optional)** **Select or Compare Areas:** Use drawing tools or compare multiple locations.  
 5. **Export or Share:** Download results as a PDF or share them online.  
 
----
 
 ## **Target Users**
 
@@ -67,7 +61,6 @@ This platform is ideal for:
 - NGOs and sustainability advocates.  
 - Anyone interested in climate and forest data visualization.  
 
----
 
 ## **Get Started**
 
@@ -76,7 +69,6 @@ Start analyzing, visualizing, and understanding the world with EcoLens.
 
 🌐 **Live Demo:** https://ecolens.vercel.app/
 
----
 
 ## **Tech Stack**
 
@@ -91,12 +83,9 @@ Start analyzing, visualizing, and understanding the world with EcoLens.
 | **Tailwind CSS** | Responsive, modern design |
 | **jsPDF** | PDF report export |
 
----
 
 ## **Future Enhancements**
 - AI-powered prediction of climate and deforestation trends.  
 - Region-based alerts and email summaries.  
 - User accounts for saving analysis history.  
 - Integration of satellite imagery overlays for visual depth.  
-
----
