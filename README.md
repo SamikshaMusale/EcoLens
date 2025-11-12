@@ -75,7 +75,7 @@ This platform is ideal for:
 Gain insights into our planet’s changing ecosystems!  
 Start analyzing, visualizing, and understanding the world with EcoLens.  
 
-🌐 **Live Demo:** *(coming soon — hosted on Vercel or Lovable)*  
+🌐 **Live Demo:** https://ecolens.vercel.app/
 
 ---
 
