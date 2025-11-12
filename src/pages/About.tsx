@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Footer } from "@/components/Footer";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageSelector } from "@/components/LanguageSelector";
 import { 
   Leaf, 
   Target, 
@@ -35,6 +36,7 @@ const About = () => {
               </div>
             </Link>
             <div className="flex items-center gap-4">
+              <LanguageSelector />
               <ThemeToggle />
               <Link to="/">
                 <Button variant="outline" size="sm" className="gap-2">

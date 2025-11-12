@@ -9,6 +9,7 @@ import { ComparisonSummaryStats } from "@/components/ComparisonSummaryStats";
 import { LocationMap } from "@/components/LocationMap";
 import { Footer } from "@/components/Footer";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageSelector } from "@/components/LanguageSelector";
 import { Loader2, Leaf, ArrowLeft, Plus, X, Download, Share2, Check } from "lucide-react";
 import logo from "@/assets/logo.svg";
 import bg from "@/assets/bg.png";
@@ -256,6 +257,7 @@ const Compare = () => {
               </div>
             </Link>
             <div className="flex items-center gap-4">
+              <LanguageSelector />
               <ThemeToggle />
               <Link to="/">
                 <Button variant="outline" size="sm" className="gap-2">

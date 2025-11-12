@@ -9,6 +9,7 @@ import { StatisticsCards } from "@/components/StatisticsCards";
 import { DataTable } from "@/components/DataTable";
 import { Footer } from "@/components/Footer";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageSelector } from "@/components/LanguageSelector";
 import { ShareButton } from "@/components/ShareButton";
 import { PDFExport } from "@/components/PDFExport";
 import { LocationMap } from "@/components/LocationMap";
@@ -179,6 +180,7 @@ const Index = () => {
                   Compare
                 </Button>
               </Link>
+              <LanguageSelector />
               <ThemeToggle />
             </div>
           </div>
