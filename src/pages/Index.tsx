@@ -130,13 +130,12 @@ const Index = () => {
               
               {/* Tagline */}
               <p className="text-xl md:text-2xl text-muted-foreground font-medium">
-                Correlating Forest Loss with Climate Change
+                The climate is changing—see how, where, and why.
               </p>
 
               {/* Description */}
               <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Visualize how deforestation correlates with climate patterns across time and location. 
-                Make data-driven insights about our planet's changing ecosystems.
+                Track how deforestation fuels temperature rise and disrupts rainfall patterns—see the impact unfold with EcoLens.
               </p>
 
               {/* CTA Button */}
