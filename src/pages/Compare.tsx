@@ -9,7 +9,7 @@ import { ComparisonSummaryStats } from "@/components/ComparisonSummaryStats";
 import { LocationMap } from "@/components/LocationMap";
 import { Footer } from "@/components/Footer";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { Loader2, Leaf, ArrowLeft, Plus, X, Download, Share2, Check } from "lucide-react";
+import { Loader2, Leaf, ArrowLeft, Plus, X, Download, Share2, Info, Check } from "lucide-react";
 import logo from "@/assets/logo.svg";
 import bg from "@/assets/bg.png";
 import { useToast } from "@/hooks/use-toast";
@@ -257,6 +257,12 @@ const Compare = () => {
             </Link>
             <div className="flex items-center gap-4">
               <ThemeToggle />
+              <Link to="/about">
+                <Button variant="ghost" size="sm" className="gap-2">
+                  <Info className="h-4 w-4" />
+                  About
+                </Button>
+              </Link>
               <Link to="/">
                 <Button variant="outline" size="sm" className="gap-2">
                   <ArrowLeft className="h-4 w-4" />
